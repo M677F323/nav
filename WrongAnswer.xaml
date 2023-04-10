@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.WrongAnswer"
+             Title="WrongAnswer"
+             BackgroundColor="{DynamicResource PrimaryColor}">
+    <VerticalStackLayout>
+        <Label 
+            Text="Your entered a wrong answer"
+            TextColor="{DynamicResource PrimaryTextColor}"
+            VerticalOptions="Center" 
+            Margin="18"
+            FontSize="40"
+            HorizontalOptions="Center" />
+        <Button Text="Try Again" FontSize="30"  HorizontalOptions="Center" WidthRequest="600" Clicked="trySameQuestionAgain" Margin="18"/>
+        <Button Text="Skip to Next Question" FontSize="30" HorizontalOptions="Center" WidthRequest="600" Clicked="navigateToNextQuestion" Margin="18"/>
+    </VerticalStackLayout>
+</ContentPage>

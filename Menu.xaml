@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.Menu"
+             Title="Menu"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <Grid Padding="1" RowSpacing="3" ColumnSpacing="1"
+          RowDefinitions="*,*,*,*"
+          ColumnDefinitions="*">
+
+        <Button Text="Light" Grid.Row="0" Grid.Column="0"
+                  HeightRequest="50" Clicked="OnLightTheme"></Button>
+
+
+        <Button Text="Dark" Grid.Row="1" Grid.Column="0" TextColor="AntiqueWhite" BackgroundColor="Black"
+                  HeightRequest="50" Clicked="OnDarkTheme"></Button>
+        <Button Text="Red" Grid.Row="2" Grid.Column="0" TextColor="Black" BackgroundColor="Red"
+                  HeightRequest="50" Clicked="OnRedTheme"></Button>
+        <Button Text="Pink" Grid.Row="3" Grid.Column="0" TextColor="Black" BackgroundColor="Pink"
+                 HeightRequest="50" Clicked="OnPinkTheme"></Button>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.Questions"
+             Title="Questions"
+              BackgroundColor="{DynamicResource PrimaryColor}">
+    <VerticalStackLayout>
+        <Label x:Name="questionText" TextColor="{DynamicResource PrimaryTextColor}" FontSize="100" FontAttributes="Bold" WidthRequest="600" HorizontalTextAlignment="Center"></Label>
+        <Button x:Name="optionOneBtn" Clicked="optionBtn_Clicked" FontSize="40" WidthRequest="600" BorderWidth="2" Padding="5"></Button>
+        <Button x:Name="optionTwoBtn" Clicked="optionBtn_Clicked" FontSize="40" WidthRequest="600" BorderWidth="2" Padding="5"></Button>
+        <Button x:Name="optionThreeBtn" Clicked="optionBtn_Clicked" FontSize="40" WidthRequest="600" BorderWidth="2" Padding="5"></Button>
+    </VerticalStackLayout>
+</ContentPage>

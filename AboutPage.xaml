@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.AboutPage"
+             Title="TeamVamos"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+    <Label FontSize="50" HorizontalTextAlignment="Center" Padding="20">
+    <Label.Text>
+Naveen Kommuri - [H583H355]
+Sri Krishna Chaitanya Padavala - [S463H822]
+Sandesh Reddy Guda - [T946Y975]
+    </Label.Text>
+</Label>
+</ContentPage>

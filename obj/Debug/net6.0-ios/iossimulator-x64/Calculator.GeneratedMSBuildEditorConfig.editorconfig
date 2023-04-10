@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Calculator
+build_property.ProjectDir = /Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/DarkTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.DarkTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = DarkTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = DarkTheme.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/LightTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.LightTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = LightTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = LightTheme.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Menu.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/PinkTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.PinkTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = PinkTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = PinkTheme.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/Questions.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.Questions.xaml
+build_metadata.AdditionalFiles.TargetPath = Questions.xaml
+build_metadata.AdditionalFiles.RelativePath = Questions.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/RedTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.RedTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = RedTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = RedTheme.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/UpdatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.UpdatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = UpdatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = UpdatePage.xaml
+
+[/Users/naveen/Documents/Cross-Platform/Assignment-2/cs797r-project-2-team-vamos-main/WrongAnswer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Calculator.WrongAnswer.xaml
+build_metadata.AdditionalFiles.TargetPath = WrongAnswer.xaml
+build_metadata.AdditionalFiles.RelativePath = WrongAnswer.xaml

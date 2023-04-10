@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <Grid RowDefinitions="2*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*"
+          RowSpacing="3"
+          ColumnSpacing="3"
+          Padding="5"
+          BackgroundColor="{DynamicResource SecondaryColor}">
+
+
+        <Label x:Name="CurrentCalculation"
+               Text=""
+               FontSize="25"
+               TextColor="DarkBlue"
+               LineBreakMode="NoWrap"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="Start"
+               Grid.Column="3"
+               Grid.ColumnSpan="4">
+
+
+        </Label>
+
+        <Label x:Name="result"
+               Text="Sum"
+               FontSize="50"
+               TextColor="DarkBlue"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="End"
+               Grid.Column="3"
+               Grid.ColumnSpan="4"
+               LineBreakMode="NoWrap">
+
+
+        </Label>
+        
+
+
+        <Button Text="C" 
+                Grid.Column="0" 
+                Grid.Row="1" 
+                Clicked="OnClearEvent" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="+/-" 
+                Grid.Column="1" 
+                Grid.Row="1" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="%" 
+                Grid.Column="2" 
+                Grid.Row="1" 
+                Clicked="OnPercentage" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="/" 
+                Grid.Column="3" 
+                Grid.Row="1" 
+                Clicked="OnSelectOperator"
+                BackgroundColor="Gray" 
+                FontSize="30"  
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="7" 
+                Grid.Column="0" 
+                Grid.Row="2" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="8" 
+                Grid.Column="1" 
+                Grid.Row="2" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="9" 
+                Grid.Column="2" 
+                Grid.Row="2" 
+                Clicked="OnSelectNumber"
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="*" 
+                Grid.Column="3" 
+                Grid.Row="2" 
+                Clicked="OnSelectOperator"
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="4" 
+                Grid.Column="0" 
+                Grid.Row="3" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="5" 
+                Grid.Column="1" 
+                Grid.Row="3" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="6" 
+                Grid.Column="2" 
+                Grid.Row="3" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="-" 
+                Grid.Column="3" 
+                Grid.Row="3" 
+                Clicked="OnSelectOperator" 
+                BackgroundColor="Gray" 
+                FontSize="35" 
+                TextColor="DarkBlue" ></Button>
+
+        <Button Text="1" 
+                Grid.Column="0" 
+                Grid.Row="4" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="2" 
+                Grid.Column="1" 
+                Grid.Row="4" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue" ></Button>
+
+        <Button Text="3" 
+                Grid.Column="2" 
+                Grid.Row="4" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="Large" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="+" 
+                Grid.Column="3" 
+                Grid.Row="4" 
+                Clicked="OnSelectOperator" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="00" 
+                Grid.Column="0" 
+                Grid.Row="5" 
+                Clicked="OnNegative" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="0" 
+                Grid.Column="1" 
+                Grid.Row="5" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="." 
+                Grid.Column="2" 
+                Grid.Row="5" 
+                Clicked="OnSelectNumber" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue"></Button>
+
+        <Button Text="=" 
+                Grid.Column="3" 
+                Grid.Row="5" 
+                Clicked="OnCalculate" 
+                BackgroundColor="Gray" 
+                FontSize="30" 
+                TextColor="DarkBlue" ></Button>
+     </Grid>
+
+</ContentPage>
